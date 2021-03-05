@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="world.cpp" />
+    <ClCompile Include="PluginLogs.cpp" />
+    <ClCompile Include="PluginConfig.cpp" />
+    <ClCompile Include="PluginHelper.cpp" />
+    <ClCompile Include="PluginData.cpp" />
+    <ClCompile Include="VehicleSpotlightData.cpp" />
+    <ClCompile Include="VehicleTextures.cpp" />
+    <ClCompile Include="VehicleLights.cpp" />
+    <ClCompile Include="VehiclePaintjobs.cpp" />
+    <ClCompile Include="ImVehFt.cpp" />
+    <ClCompile Include="PluginMultiplayer.cpp" />
+    <ClCompile Include="PluginKeys.cpp" />
+    <ClCompile Include="VehicleIndicators.cpp" />
+    <ClCompile Include="VehicleMaterials.cpp" />
+    <ClCompile Include="VehicleDummy.cpp" />
+    <ClCompile Include="VehicleFoglights.cpp" />
+    <ClCompile Include="VehicleSirens.cpp" />
+    <ClCompile Include="VehicleSteering.cpp" />
+    <ClCompile Include="VehicleSirenRotators.cpp" />
+    <ClCompile Include="PluginTextures.cpp" />
+    <ClCompile Include="PluginVersion.cpp" />
+    <ClCompile Include="PluginCoronas.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IniReader\ini_parser.hpp">
+      <Filter>IniReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader\IniReader.h">
+      <Filter>IniReader</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h" />
+    <ClInclude Include="nlohmann\json.hpp" />
+    <ClInclude Include="PluginLogs.h" />
+    <ClInclude Include="PluginConfig.h" />
+    <ClInclude Include="PluginHelper.h" />
+    <ClInclude Include="PluginData.h" />
+    <ClInclude Include="VehicleSpotlightData.h" />
+    <ClInclude Include="VehicleTextures.h" />
+    <ClInclude Include="VehicleLights.h" />
+    <ClInclude Include="VehiclePaintjobs.h" />
+    <ClInclude Include="ImVehFt.h" />
+    <ClInclude Include="PluginMultiplayer.h" />
+    <ClInclude Include="PluginKeys.h" />
+    <ClInclude Include="VehicleIndicators.h" />
+    <ClInclude Include="VehicleMaterials.h" />
+    <ClInclude Include="VehicleDummy.h" />
+    <ClInclude Include="VehicleFoglights.h" />
+    <ClInclude Include="VehicleSirens.h" />
+    <ClInclude Include="VehicleSteering.h" />
+    <ClInclude Include="VehicleSirenRotators.h" />
+    <ClInclude Include="PluginTextures.h" />
+    <ClInclude Include="PluginVersion.h" />
+    <ClInclude Include="PluginCoronas.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IniReader">
+      <UniqueIdentifier>{06085785-aeeb-4c71-b619-8d53607f167e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="world.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
